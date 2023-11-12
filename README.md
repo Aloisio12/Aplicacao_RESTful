@@ -156,6 +156,7 @@ Execute a solicitação clicando em Send Request.
 Coloque o código para excluir um cliente por ID (substitua 2 pelo ID desejado):
 <br><br>
 ###<br>
-DELETE http://localhost:3333/client/2<br>
+DELETE http://localhost:3333/client/2
+<br><br>
 Execute a solicitação clicando em Send Request.<br>
 Certifique-se de ter "###" antes de cada método de dados(menos antes do primeiro método) para que a aplicação funcione corretamente.
