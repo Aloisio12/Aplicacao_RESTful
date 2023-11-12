@@ -112,7 +112,7 @@ Abra o arquivo routes.http onde você está mantendo suas solicitações no Visu
 <br><br>
 Coloque o código de postagem dos dados:
 <br><br>
-POST http://localhost:3333/client
+POST http://localhost:3333/client<br>
 Content-Type: application/json<br>
 {
   "name": "Wendell Silva Sales",
@@ -124,7 +124,7 @@ Content-Type: application/json<br>
 <br><br>
 Coloque o código para obter todos os clientes:
 <br><br>
-###
+###<br>
 GET http://localhost:3333/client
 Execute a solicitação clicando em Send Request.
 <br><br>
@@ -132,7 +132,7 @@ Execute a solicitação clicando em Send Request.
 <br><br>
 Coloque o código para obter um cliente por ID (substitua 2 pelo ID desejado):
 <br><br>
-###
+###<br>
 GET http://localhost:3333/client/2
 <br><br>
 Execute a solicitação clicando em Send Request.
@@ -141,8 +141,8 @@ Execute a solicitação clicando em Send Request.
 <br><br>
 Coloque o código para atualizar dados (substitua 2 pelo ID desejado):
 <br><br>
-###
-PUT http://localhost:3333/client/2
+###<br>
+PUT http://localhost:3333/client/2<br>
 Content-Type: application/json<br>
 {
   "name": "Jennifer Silva Sales",
@@ -155,9 +155,9 @@ Execute a solicitação clicando em Send Request.
 <br><br>
 Coloque o código para excluir um cliente por ID (substitua 2 pelo ID desejado):
 <br><br>
-###
+###<br>
 DELETE http://localhost:3333/client/2
 <br>
 Execute a solicitação clicando em Send Request.
 <br>
-Certifique-se de ter "###" entre cada método de dados para que a aplicação funcione corretamente.
+Certifique-se de ter "###" antes de cada método de dados(menos antes do primeiro método) para que a aplicação funcione corretamente.
