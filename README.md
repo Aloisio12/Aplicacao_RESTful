@@ -126,6 +126,7 @@ Coloque o código para obter todos os clientes:
 <br><br>
 ###<br>
 GET http://localhost:3333/client
+<br><br>
 Execute a solicitação clicando em Send Request.
 <br><br>
 ***Recebimento dos Dados por ID:
