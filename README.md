@@ -147,7 +147,7 @@ Content-Type: application/json<br>
 {
   "name": "Jennifer Silva Sales",
   "email": "jennifersilva@gmail.com"
-}<br>
+} 
 <br><br>
 Execute a solicitação clicando em Send Request.
 <br><br>
