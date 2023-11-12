@@ -1,0 +1,33 @@
+// ENVIO DOS DADOS
+POST http://localhost:3333/client
+Content-Type: application/json
+
+{
+ "name": "Wendell Silva Sales",
+ "email": "wendellsilva@gmail.com"
+} 
+
+
+// RECEBIMENTO DOS DADOS
+###
+GET http://localhost:3333/client
+
+// RECEBIMENTO DOS DADOS POR ID
+###
+GET http://localhost:3333/client/2
+
+
+
+// ATUALIZAR DADOS
+###
+PUT http://localhost:3333/client/2
+
+{
+ "name": "Jennifer Silva Sales",
+ "email": "jennifersilva@gmail.com"
+} 
+
+
+// DELETAR UM DADO POR ID
+###
+DELETE http://localhost:3333/client/2
