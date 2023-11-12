@@ -113,13 +113,12 @@ Abra o arquivo routes.http onde você está mantendo suas solicitações no Visu
 Coloque o código de postagem dos dados:
 <br><br>
 POST http://localhost:3333/client
-Content-Type: application/json
-
+Content-Type: application/json<br>
 {
   "name": "Wendell Silva Sales",
   "email": "wendellsilva@gmail.com"
 }
-Execute a solicitação clicando em Send Request.
+<br>Execute a solicitação clicando em Send Request.
 <br><br>
 ***Recebimento dos Dados:
 <br><br>
@@ -144,11 +143,11 @@ Coloque o código para atualizar dados (substitua 2 pelo ID desejado):
 <br><br>
 ###
 PUT http://localhost:3333/client/2
-Content-Type: application/json
+Content-Type: application/json<br>
 {
   "name": "Jennifer Silva Sales",
   "email": "jennifersilva@gmail.com"
-}
+}<br>
 <br><br>
 Execute a solicitação clicando em Send Request.
 <br><br>
