@@ -1,10 +1,7 @@
 TÍTULO DO PROJETO:
 Aplicação RESTful utilizando Node.js, Express e Prisma
 
-
-
-
-
+<br><br><br><br><br>
 
 EXPLICAÇÃO:
 Uma aplicação RESTful API é um serviço web que segue os princípios da arquitetura REST (Representational State Transfer). Essa abordagem utiliza URLs únicas para identificar recursos, opera através de métodos HTTP padrão (como GET, POST, PUT e DELETE) para realizar operações CRUD, utiliza representações de recursos em formatos como JSON ou XML, é stateless (sem manter estado entre solicitações), e promove a consistência nas respostas HTTP. É uma forma eficiente e escalável de criar serviços web, frequentemente usada para integração entre sistemas e desenvolvimento de aplicações web modernas.
@@ -17,10 +14,7 @@ Prisma Studio:
 Neon.tech:
 É um serviço de banco de dados Postgres sem servidor, tolerante a falhas e com capacidade de ramificação. Ele separa armazenamento e computação para oferecer escalabilidade sob demanda, ramificação e armazenamento sem limites. O Neon é compatível com o cliente Postgres porque um cálculo Neon é Postgres. O Neon ajusta dinamicamente a alocação de recursos de computação com base na carga de trabalho. Ele foi projetado desde o início como um sistema tolerante a falhas e escalável para a nuvem. Ele integra-se com lojas de objetos em nuvem, como o S3, para descarregar dados frios para otimização de custos. O Neon permite que você ramifique instantaneamente seu banco de dados Postgres para suportar fluxos de trabalho de desenvolvimento modernos.
 
-
-
-
-
+<br><br><br><br><br>
 
 PRÉ-REQUISITOS:
 
@@ -33,10 +27,7 @@ Ambiente de execução JavaScript do lado do servidor, permitindo o desenvolvime
 - Express:
 Framework web para Node.js que simplifica a criação de aplicativos web e APIs, proporcionando uma estrutura robusta e flexível.
 
-
-
-
-
+<br><br><br><br><br>
 
 INSTALAÇÃO:
 
